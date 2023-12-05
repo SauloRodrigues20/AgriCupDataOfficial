@@ -1,0 +1,92 @@
+
+.body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1e2e34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .login-container {
+    background: #fff;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px #6399AE;
+    width: 300px;
+  }
+ 
+  .login-button {
+    width: 100%;
+    background-color: #6399AE;
+    color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  .login-button:hover {
+    background-color: #1e2e34;
+  }
+  img{
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+  }
+  .esqueci{ 
+    color: #1e2e34;
+    text-decoration: none;
+    margin-right: 30px;
+
+  }
+  .cadastro{
+    color: #1e2e34;
+    margin-bottom: 2px;
+    text-decoration: none;
+    margin-left:30px;
+   
+
+  }
+  .cadastro:hover, .esqueci:hover{
+    color: #6399AE;
+  }
+  .select{
+    width: 100%;
+      padding: 25px;
+      margin: 1px 0 20px 0;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      border-radius: 25px;
+    }
+  .cadastrado{
+
+    margin: 77px;
+    color: #1e2e34;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  .recuperado{
+
+    margin: 70px;
+    color: #1e2e34;
+    text-decoration: none;
+    margin-right: 30px;
+  }
+  .cadastrado:hover{
+    color: #6399AE;
+  }
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 25px;
+  }
+
+
+

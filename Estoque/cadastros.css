@@ -1,0 +1,239 @@
+*{
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.first{
+    color: #6399AE;
+    text-align: center;
+    padding: 50px;
+    display: grid; 
+}
+
+.success-message, .error-message {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.success-message {
+    background-color: #4CAF50;
+}
+
+.error-message {
+    background-color: #f44336;
+}
+.titulos{
+    color: #6399AE;
+    text-align: center;
+    
+    
+}
+.logo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.relatorios{
+    width: 200px;
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 80%;
+    padding: 16px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #6399AE;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.linha {
+    width: 20%; /* Altere para o tamanho desejado */
+    border: 1px solid #fff; /* Altere para a espessura e cor desejadas */
+    display: block;
+    margin-left: 50%;
+    margin-right: 50%;       
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*-----NAVBAR-----*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: ;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar li a:hover {
+    background-color: #6399AE;
+}
+
+
+/*Estilos das TAGS*/
+body,html{
+    background: linear-gradient(38deg, #438097 0%, #1e2e34 0%);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+button{
+    margin-left: 30%;
+    margin-right: 30%;
+    max-width: 80%;
+    padding: 16px;
+    border-radius: 15px;
+    margin-top: 15px;
+    background-color: #fff; /* Cor de fundo */
+    color: #1e2e34; /* Cor do texto */
+    border: none; /* Remove a borda */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove o sublinhado */
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s; /* Duração da transição */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando você passa o mouse sobre o botão */
+}
+
+button:hover {
+    background-color: #438097; /* Cor de fundo quando o mouse está sobre o botão */
+    color: white; /* Cor do texto quando o mouse está sobre o botão */
+}
+/*Formularios*/
+form,h1,label {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="file"],
+textarea {
+    width: calc(30% - 19px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #1e2e34;
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+input[type="submit"] {
+    background-color: #;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #6399AE;
+    color: #fff;
+}
+
+textarea {
+    height: 100px;
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+/* Adiciona alguns estilos quando o usuário foca nos campos de entrada */
+input[type="text"]:focus,
+input[type="file"]:focus,
+textarea:focus {
+    border-color: #6399AE;
+    outline: none;
+}
+
+
+p{
+    color: #6399AE;
+    font-weight: bold;
+}
+/****/
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 100%;
+    }
+  
+    .linha {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+  
+    .navbar ul {
+        flex-direction: column;
+    }
+  
+    .navbar li a {
+        display: block;
+        margin: 10px 0;
+    }
+  
+    .relatorios, button {
+        width: calc(100% - 32px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    input[type="text"],
+    input[type="file"],
+    textarea {
+        width: calc(90% - 22px);
+    }
+}
+.table{
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr,td{
+    border-color: #fff;
+    color: #fff;
+    font-size: 110%;
+    padding: 25px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select{
+    width: 35%;
+      padding: 25px;
+      margin: 1px 0 20px 0;
+      border: 1px solid #ddd;
+      box-sizing: border-box;
+      border-radius: 25px;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
